@@ -1,0 +1,11 @@
+@use "variables";
+@use "colors";
+
+@mixin date-like-format() {
+  font-family: variables.$main-font;
+  font-style: variables.$card-fontStyle;
+  font-weight: variables.$font-weight400;
+  font-size: variables.$footer-fontSize;
+  line-height: variables.$lineHeight;
+  color: colors.$accent-color5;
+}
